@@ -1,0 +1,13 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/1515516277/spring-clound-master   #git地址
+          search-paths: config-repo     #git文件目录
+          username: 1515516277@qq.com   #用户名
+          password: 1515516277wm..    #密码

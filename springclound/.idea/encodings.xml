@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/springboot-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-consumers" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-consumers-hystrix" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-consumers1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-producers" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-producers-banlance" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-registry" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-registry/src/main/resources/application.yml" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />

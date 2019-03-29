@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/consumers/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-producers-banlance/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-consumers-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-config-server/pom.xml" />
       </list>
     </option>
   </component>

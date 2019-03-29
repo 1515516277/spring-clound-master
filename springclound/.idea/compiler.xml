@@ -6,21 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-config-server" />
         <module name="springboot-consumers" />
         <module name="springboot-consumers-hystrix" />
         <module name="springboot-producers" />
         <module name="springboot-producers-banlance" />
         <module name="springboot-registry" />
         <module name="springclound" />
+        <module name="springclound-config-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot-config-client" target="1.8" />
       <module name="springboot-consumers1" target="1.8" />
       <module name="springboot-provider" target="1.8" />
+      <module name="springboot-springclound-config" target="1.8" />
+      <module name="springclound-config-client" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-config-client" options="-parameters" />
+      <module name="springboot-config-server" options="-parameters" />
       <module name="springboot-consumers" options="-parameters" />
       <module name="springboot-consumers-hystrix" options="-parameters" />
       <module name="springboot-consumers1" options="-parameters" />
@@ -28,6 +35,8 @@
       <module name="springboot-producers-banlance" options="-parameters" />
       <module name="springboot-provider" options="-parameters" />
       <module name="springboot-registry" options="-parameters" />
+      <module name="springboot-springclound-config" options="-parameters" />
+      <module name="springclound-config-client" options="-parameters" />
     </option>
   </component>
 </project>
